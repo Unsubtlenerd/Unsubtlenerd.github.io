@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Bluetooth Speaker"
+date:   2020-01-15 19:03:01 +0000
+categories: project
+---
+
+![Photo of the speaker](/assets/speaker.jpg)   
+<br>
+To build or to buy? Arguably, an off-the-shelf bluetooth speaker at the same price point would probably sound better, be smaller and be waterproof. But buying something pre-made is no fun compared to building it yourself, and the journey you take is often as important as the end result.  
+The project was inspired by video from [DIY Perks](https://www.youtube.com/watch?v=a43LXqRwQC8), but I wanted to make it my own design rather than straight up copying the project. I opted for larger 20 watt Dayton Audio DSA90 full range drivers, the same [OEP30WX2]() amplifier module, and a 6S lithium ion battery pack with balancing and CC/CV charger inbuilt.  
+I planned to print the outer shell in one piece on my university's Raise3D Pro 2, but after seeing the fee of £0.36 per meter (!) of filament, I opted to print it on my own machine in 4 sections. The joints aren't pretty, but could be hidden by sanding, filling, priming and painting if I decide to - after all, I was originally planning to make it blue, but decided that the orange looked quite nice, so I left it at that.   
+<br>
+The speakers are mounted on two 3mm MDF sheets laminated together, which my university kindly laser cut for me. The backplate consists of just a single sheet of MDF which, in hindsight, I really should have made this thicker, as the pressure created by those speakers is much more than I had anticipated at high volumes, and causes the backplate to resonate. To combat this I'll be adding more screws around the perimeter, this time with threaded inserts, as the screws straight in to plastic really can't be unscrewed more than a couple of times without the plastic holes wearing out, but hey, lesson learned there.  
+<br>
+The front of the speaker worked way better than I had anticipated, and I'm really quite please with it. It uses a 3D printed, curved and perforated grille that then has black speaker cloth stretched over it and glued in place on the inside. Creating the grille turned out to be more difficult than anticipated. I had planned to bore 1 hole in the centre and do a rectangular pattern feature over the part, but Solid Edge really didn't want to do that. After several attempts and letting it think about it for over an hour, I resorted to sketching each hole manually (SE can only pattern features, not sketches) and extruding it through the part. This was also slow, but at least it worked.  
+![Rendering of front grille](/assets/speaker-grille.jpg) 
+
+
+If you decide to build something like this, you can find all the models and BOM [here](https://github.com/Unsubtlenerd/BTSpeaker)
+

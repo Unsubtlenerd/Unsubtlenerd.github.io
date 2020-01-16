@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "The OEP30WX2 - A small, cheap and surprisingly capable audio amplifier"
+date:   2020-01-15 19:03:01 +0000
+categories: electronics, speaker, bluetooth, project
+---
+
+The OEP30WX2 is a tiny class D audio amplifier module that can deliver up to 30/22 watts per channel in to 4 and 8 ohm speakers respectively. It requires no external components, making it incredibly easy to hook up to an audio source and some speakers. And importantly, it actually sounds pretty decent. At this point, it sounds perfect for pretty much any project in need of a moderately powerful amplifier - I used it as the basis for my [bluetooth speaker](https://wwww.unsubtlenerd.github.io) build, and it works great. To see it in action, take a look at this video from [DIY Perks.](https://www.youtube.com/watch?v=a43LXqRwQC8)  
+There are, however, a couple of caveats with this module. The important thing I learned - and only after destroying two of these devices - is, unlike the descriptions suggest, is to absolutely **not** connect them directly to a 24v supply. The inrush current to the output capacitors at this voltage is enough let the magic smoke out! Despite this, the eBay descriptions all recommend using at *least* a 30W speaker, with "bigger being better". Unless you have a soft start circuit or inrush current limiter, I would not run this module over 21 volts, effectively limiting its potential to about 23 watts.   
+Having said that, I would still absolutely recommend these little amplifiers. There's no official datasheets, the chips essentially doesn't exist, but they can be had for less than £2, and they really is quite capable. Here's a slightly adjusted datasheet for convinience:  
+
+<table>
+	<tr>
+		<td>Amplifier Type</td>
+		<td>Class D</td>
+	</tr>
+		<td>Channels</td>
+		<td>Stereo<sup>1</sup></td>
+	<tr>
+		<td>Voltage</td>
+		<td>7.5 to 21V DC</td>
+	</tr>
+	<tr>
+		<td>Gain (fixed)</td>
+		<td>36dB*</td>
+	</tr>
+	<tr>
+		<td>Quiescent current:</td>
+		<td>11mA*</td>
+	</tr>
+	<tr>
+		<td>Dimensions</td>
+		<td>XXX x XXX x 3mm</td>
+	</tr>
+</table>
+
+*As per the listings, not checked by myself  
+<sup>1</sup> Not to be confused with the mono version, the OEP30W
+
+
+ 
+
+
+
+
