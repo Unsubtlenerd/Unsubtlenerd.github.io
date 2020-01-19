@@ -30,7 +30,7 @@ Having said that, I would still absolutely recommend these little amplifiers. Th
 	</tr>
 	<tr>
 		<td>Dimensions</td>
-		<td>XXX x XXX x 3mm</td>
+		<td>18 x 25 x 3mm</td>
 	</tr>
 </table>
 
